@@ -54,9 +54,9 @@ class: inverse, center, middle
 
 Att __göra ett begrepp__ som vi ämnar att studera __mätbart__ för att på så sätt kunna lagra informationen i form av __variabler__. Grunden till empirisk forskning. Att göra ett begrepp mätbara kräver att vi först __tydligt definier begreppet__.
 
-Vad betyder brottslighet och mäter vi brottslighet?
+Vad betyder brottslighet och hur mäter vi brottslighet?
 
-Vad betyder självkontroll och hur mäter vi självkontrol?
+Vad betyder självkontroll och hur mäter vi självkontroll?
 
 ![:scale 65%](images/ruler.png)
 
@@ -91,7 +91,7 @@ DT::datatable(df, fillContainer = FALSE, rownames = FALSE, options = list(pageLe
 
 # Variabel
 
-.pull-left[Defineras som ett värde som kan __variera från observation till observation__. 
+.pull-left[Defineras som ett fenomen vars värde kan __variera från observation till observation__. Motsatsen till en variabel är en konstant.
 
 __Analysenhet__ är den eller __de enheter som du analyserar__ i din studie]
 
@@ -238,7 +238,7 @@ DT::datatable(df, fillContainer = FALSE, rownames = FALSE, options = list(pageLe
 
 # Ordinal 
 
-.pull-left[Kategorier kan rangordnas från hög till låg, mer eller mindre
+.pull-left[__Kategorier kan rangordnas__ från hög till låg, mer eller mindre
 
 Värdet har bara  betydelse i förhållande till andra värden
 
@@ -296,7 +296,7 @@ DT::datatable(df %>%
 
 ---
 
-# Två olika typer av numeriska variabler 
+# Två olika typer av intervall/kvot-variabler
 
 __Diskret variabel__ - grundläggande måttenhet som __inte kan delas__.
 
@@ -417,7 +417,7 @@ df_2 <- tibble(
 )
 
 DT::datatable(df_2 %>% 
-                select("Person ID", "Ålder"), fillContainer = FALSE, rownames = FALSE, options = list(pageLength = 10, dom = 't'))
+                select("Person ID", "Ålder"), fillContainer = FALSE, rownames = FALSE, options = list(pageLength = 6, searching = FALSE))
 ```
 ]
 
@@ -470,7 +470,7 @@ df_2 %>% count(Ålder_kategorier)
 
 ---
 
-# Absolut frekvenser
+# Absolut frekvens
 
 __Av 1 846__ personer med elektronisk fotboja så __återföll 746__ i brott.
 
@@ -646,6 +646,20 @@ Det är dock det __enda centralmåttet som går att använda för nominala varia
 
 __Exempel__: Vilket är typvärdet i följande urval?
 
+- 70, 82, 90, 98, 82
+
+---
+
+# Typvärde
+
+Det värde som förekommer __flest gånger__.
+
+Typvärde kan användas för variabler på __alla datanivåer__.
+
+Det är dock det __enda centralmåttet som går att använda för nominala variabler__.
+
+__Exempel__: Vilket är typvärdet i följande urval?
+
 - 70, __82__, 90, 98, __82__
 
 ---
@@ -673,7 +687,7 @@ __Hälften__ av urvalet __hamnar över medianen__, den andra __hälften under__.
 
 För att hitta medianen så måste du __först rangordna värdena__ från lägst till högst.
 
-Kan användas för ordinala samt interval och kvotvariabler men __ofta mer lämplig för ordinala variabler__.
+Användas för intervall- och kvotvariabler men __framförallt ordinala variabler__.
 ]
 
 .pull-right[
@@ -691,7 +705,7 @@ DT::datatable(df_4, fillContainer = FALSE, rownames = FALSE, options = list(page
 
 Det __mest använda centralmåttet__.
 
-Används __främst för intervall- och kvotvariabler__.
+Används __för intervall- och kvotvariabler__.
 
 Kan användas för __ordinala skalor men med försiktighet vid__.
 
@@ -709,9 +723,9 @@ Exempel:
 .pull-left[
 Medelvärdet representeras vanligen av symbolen (på svenska ”x-tak”, på engelska ”x-bar”).
 
-Kan också uttryckas med bokstaven m.
+Kan också uttryckas med bokstaven __m__.
 
-För att räkna ut medelvärdet summerar du alla värden och dividerar därefter med antalet värden
+För att räkna ut medelvärdet __summerar du alla värden och dividerar därefter med antalet värden__.
 ]
 
 .pull-right[
@@ -911,4 +925,4 @@ Datanivåer och variabeltyper - Nominal, Ordinal, Intervall, Kvot
 
 Univariat beskrivande statistik - Frekvenser och andelar samt centralmått
 
-Grafisk resultatpresentation - olika typer av figurer beroende på datanivå
+Grafisk resultatpresentation - Olika typer av figurer beroende på datanivå
