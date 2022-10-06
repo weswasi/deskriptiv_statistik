@@ -375,7 +375,7 @@ Presentera resultat på ett __lättförståeligt__ sätt.
 Information såsom dess __mittpunkt__ (centralmått) och dess __spridning__ (spridningsmått).]
 
 .pull-right[
-![](images/graph_1.png)
+![](images/figur.png)
 ]
 
 ---
@@ -417,7 +417,7 @@ df_2 <- tibble(
 )
 
 DT::datatable(df_2 %>% 
-                select("Person ID", "Ålder"), fillContainer = FALSE, rownames = FALSE, options = list(pageLength = 6, searching = FALSE))
+                select("Person ID", "Ålder"), fillContainer = FALSE, rownames = FALSE, options = list(pageLength = 11, dom = 't'))
 ```
 ]
 
