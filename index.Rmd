@@ -336,7 +336,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# Beskrivande statestik
+# Beskrivande statistik
 
 ---
 
