@@ -344,11 +344,15 @@ class: inverse, center, middle
 
 Två typer av statistik:
 
+.pull-left[
 - Beskrivande statistik är en gren inom statistiken som går ut på att __beskriva och sammanfatta en samling data__ eller variabler. Data kan till exempel beskrivas med hjälp av __centralmått__ och __spridningsmått.__ 
 
---
-
 - Den beskrivande statistiken skiljer sig från __inferentiell statistik__, som går ut på att __dra generella slutsatser om en population med hjälp av stickprov__.
+]
+
+.pull-right[
+![](images/sample.png)
+]
 
 ---
 
