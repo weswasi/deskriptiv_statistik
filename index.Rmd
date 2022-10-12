@@ -1,7 +1,7 @@
 ---
 title: "Kvantitativa forskningsprocessen & beskrivande statistik"
 author: "Enes Al Weswasi"
-institute: "Kriminologiska institutionen, Stockholms universitet"
+institute: "Kriminologiska institutionen, Stockholms universitet <br /> <br /> <br /> deskriptiv-statistik.netlify.app"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
