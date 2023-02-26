@@ -390,7 +390,7 @@ __Antal förekomster__ av  __enskilda variabelvärden__.
 
 .pull-left[
 ```{r, echo=FALSE}
-df %>% count(Brottstyp)
+data.frame(df %>% count(Brottstyp))
 ```
 ]
 
@@ -427,7 +427,7 @@ DT::datatable(df_2 %>%
 
 .pull-right[
 ```{r, echo=FALSE}
-df_2 %>% count(Ålder) %>% print(n = 24)
+data.frame(df_2 %>% count(Ålder))
 ```
 ]
 
@@ -468,7 +468,7 @@ DT::datatable(df_2 %>%
 
 .pull-right[
 ```{r, echo=FALSE}
-df_2 %>% count(Ålder_kategorier)
+data.frame(df_2 %>% count(Ålder_kategorier))
 ```
 ]
 
@@ -783,9 +783,9 @@ Dina egna __fördomar och åsikter__ kan påverka __ditt val__ av mått.
 
 ---
 
-# Vilket centralmått spelar roll - Inkapaciteringseffekt?
+# Vilket centralmått spelar roll
 
-![](images/inkap.png)
+![:scale 75%](images/inkap.png)
 
 ---
 
