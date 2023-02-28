@@ -857,7 +857,8 @@ df_3 <- df_3 %>%
                                Brottstyp == 3 ~ "Inbrott",
                                Brottstyp == 4 ~ "Annat"))
 
-df_3 %>% count(Brottstyp)
+data.frame(df_3 %>% 
+             count(Brottstyp))
 ```
 
 ]
