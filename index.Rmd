@@ -903,18 +903,18 @@ df_3 %>%
 Används främst för __numeriska variabler__.
 
 ```{r, echo=FALSE,  out.width="55%", dpi = 150}
-df_3 <- df_3 %>%
-  mutate_if(is.numeric, round, digits=0)
+df_4 <- data.frame(year = c(2000, 2005, 2010, 2015, 2020),
+                   sentences = c(9178, 10656, 9679, 8581 ,8964))
 
-df_3 <- df_3 %>% count(Ålder)
-
-df_3 %>% 
-  ggplot(aes(x = Ålder, y = n)) + 
-  geom_line(size = 1.5) +
-  xlab("Ålder") +
-  ylab("Antal") +
+df_4 %>% 
+  ggplot(aes(x = year, y = sentences)) + 
+  geom_line(linewidth = 1.5) +
+  geom_point(size = 5) +
   theme(axis.text = element_text(size = 18),
-        axis.title = element_text(size=20, face="bold"))
+        axis.title = element_text(size=20, face="bold")) +
+  scale_y_continuous(limits = c(0, 12000), breaks = seq(0, 12000, 2000)) +
+  labs(x = "År",
+       y = "Fängelseverkställigheter")
 
 ```
 
