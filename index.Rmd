@@ -74,7 +74,7 @@ Vad betyder självkontroll och hur mäter vi självkontroll?
 
 # Variabel
 
-.pull-left[Defineras som ett värde som kan __variera från observation till observation__. 
+.pull-left[Defineras som ett fenomen vars värde kan __variera från observation till observation__. Motsatsen till en variabel är en konstant.
 
 __Analysenhet__ är den eller __de enheter som du analyserar__ i din studie]
 
@@ -108,7 +108,7 @@ DT::datatable(df, fillContainer = FALSE, rownames = FALSE, options = list(pageLe
 
 # Variabel
 
-.pull-left[Defineras som ett värde som kan __variera från observation till observation__. 
+.pull-left[Defineras som ett fenomen vars värde kan __variera från observation till observation__. Motsatsen till en variabel är en konstant.
 
 __Analysenhet__ är den eller __de enheter som du analyserar__ i din studie]
 
