@@ -145,6 +145,12 @@ DT::datatable(df, fillContainer = FALSE, rownames = FALSE, options = list(pageLe
 
 ---
 
+# Dataset
+
+![](images/dataset_3.png)
+
+---
+
 class: center, middle
 
 ![:scale 75%](images/design.png)
@@ -880,6 +886,17 @@ df_3 %>%
 
 ---
 
+# Stapeldiagram
+
+![:scale 75%](images/stapeldiagram.png)
+---
+
+# Stapeldiagram
+
+![:scale 75%](images/stapeldiagram2.png)
+
+---
+
 # Histogram
 
 Används främst för __numeriska variabler__.
@@ -895,6 +912,22 @@ df_3 %>%
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size=20, face="bold"))
 ```
+---
+
+# Histogram
+
+![:scale 75%](images/histogram.png)
+---
+
+# Histogram
+
+![:scale 75%](images/histogram2.png)
+
+---
+
+# Histogram
+
+![:scale 75%](images/histogram3.png)
 
 ---
 
@@ -917,6 +950,29 @@ df_4 %>%
        y = "Fängelseverkställigheter")
 
 ```
+
+---
+# Linjediagram
+
+![:scale 75%](images/linjediagram.png)
+---
+# Linjediagram
+
+![:scale 75%](images/linjediagram2.png)
+---
+# Linjediagram
+
+![:scale 75%](images/linjediagram3.png)
+
+---
+# Linjediagram
+
+![:scale 75%](images/linjediagram4.png)
+
+---
+# Oändligt med sätt att sammanfatta data
+
+https://www.data-to-viz.com/
 
 ---
 
